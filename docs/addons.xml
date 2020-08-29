@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="repository.fr33p0rt" name="fr33p0rt Repository" provider-name="fr33p0rt" version="0.9.0">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0" />
+        </requires>
+        <extension name="fr33p0rt Repository" point="xbmc.addon.repository">
+            <info compressed="true">https://fr33p0rt.github.io/kodi-repository.fr33p0rt/addons.xml</info>
+            <checksum>https://fr33p0rt.github.io/kodi-repository.fr33p0rt/addons.xml.md5</checksum>
+            <datadir zip="true">https://fr33p0rt.github.io/kodi-repository.fr33p0rt</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>fr33p0rt Kodi Repository</summary>
+            <description>This repository contains my addons for Kodi. http://github.com/fr33p0rt </description>
+            <platform>all</platform>
+    </extension>
+</addon><addon id="plugin.video.poda" name="PODA TV plugin" provider-name="fr33p0rt" version="0.7.4">
+<requires>
+  <import addon="xbmc.python" version="2.24.0" />
+  <import addon="script.module.requests" />
+</requires>
+<extension library="main.py" point="xbmc.python.pluginsource">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">PODA TV Video Plugin</summary>
+  <description lang="en_GB">A PODA TV video plugin for Kodi mediacenter.</description>
+  <disclaimer lang="en_GB">License GPLv3. Software is provided 'as is' without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of fitness for a purpose, or the warranty of non-infringement.</disclaimer>
+  <description lang="cs_CZ">PODA TV video plugin pro Kodi mediacenter.</description>
+  <disclaimer lang="cs_CZ">Licence GPLv3. Software je poskytován „tak, jak je“, bez jakékoli záruky, ať výslovné nebo předpokládané, včetně, ale nikoli výhradně, předpokládaných záruk způsobilosti pro určitý účel nebo záruky neporušení práv.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <news>Channel logos are in channel list now</news>
+</extension>
+</addon><addon id="plugin.video.com.pornky" name="pornky.com" provider-name="fr33p0rt (fr33p0rt@protonmail.com)" version="0.9.0">
+<requires>
+  <import addon="xbmc.python" version="2.24.0" />
+  <import addon="script.module.requests" />
+  <import addon="script.module.beautifulsoup4" />
+</requires>
+<extension library="main.py" point="xbmc.python.pluginsource">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+  <platform>all</platform>
+  <summary lang="en">pornky.com</summary>
+  <description lang="en_GB">pornky.com video plugin for Kodi.</description>
+  <disclaimer lang="en_GB">License GPLv3. Software is provided 'as is' without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of fitness for a purpose, or the warranty of non-infringement.</disclaimer>
+  <description lang="cs_CZ">pornky.com video plugin pro Kodi.</description>
+  <disclaimer lang="cs_CZ">Licence GPLv3. Software je poskytován „tak, jak je“, bez jakékoli záruky, ať výslovné nebo předpokládané, včetně, ale nikoli výhradně, předpokládaných záruk způsobilosti pro určitý účel nebo záruky neporušení práv.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+  <email>fr33p0rt@protonmail.com</email>
+  <news>First public version release.</news>
+</extension>
+</addon></addons>
