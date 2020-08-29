@@ -4,7 +4,7 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="fr33p0rt Repository">
-            <info compressed="true">https://fr33p0rt.github.io/kodi-repository.fr33p0rt/addons.xml</info>
+            <info compressed="false">https://fr33p0rt.github.io/kodi-repository.fr33p0rt/addons.xml</info>
             <checksum>https://fr33p0rt.github.io/kodi-repository.fr33p0rt/addons.xml.md5</checksum>
             <datadir zip="true">https://fr33p0rt.github.io/kodi-repository.fr33p0rt</datadir>
             <hashes>false</hashes>

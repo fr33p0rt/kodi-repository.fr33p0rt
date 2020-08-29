@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.poda"
-version="0.7.4"
+version="0.7.6"
 name="PODA TV plugin"
 provider-name="fr33p0rt">
 <requires>
@@ -20,6 +20,6 @@ provider-name="fr33p0rt">
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Channel logos are in channel list now</news>
+  <news>Pairing / Párování</news>
 </extension>
 </addon>

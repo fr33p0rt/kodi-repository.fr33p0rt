@@ -4,7 +4,7 @@
             <import addon="xbmc.addon" version="12.0.0" />
         </requires>
         <extension name="fr33p0rt Repository" point="xbmc.addon.repository">
-            <info compressed="true">https://fr33p0rt.github.io/kodi-repository.fr33p0rt/addons.xml</info>
+            <info compressed="false">https://fr33p0rt.github.io/kodi-repository.fr33p0rt/addons.xml</info>
             <checksum>https://fr33p0rt.github.io/kodi-repository.fr33p0rt/addons.xml.md5</checksum>
             <datadir zip="true">https://fr33p0rt.github.io/kodi-repository.fr33p0rt</datadir>
             <hashes>false</hashes>
@@ -14,7 +14,7 @@
             <description>This repository contains my addons for Kodi. http://github.com/fr33p0rt </description>
             <platform>all</platform>
     </extension>
-</addon><addon id="plugin.video.poda" name="PODA TV plugin" provider-name="fr33p0rt" version="0.7.4">
+</addon><addon id="plugin.video.poda" name="PODA TV plugin" provider-name="fr33p0rt" version="0.7.6">
 <requires>
   <import addon="xbmc.python" version="2.24.0" />
   <import addon="script.module.requests" />
@@ -32,7 +32,7 @@
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Channel logos are in channel list now</news>
+  <news>Pairing / Párování</news>
 </extension>
 </addon><addon id="plugin.video.com.pornky" name="pornky.com" provider-name="fr33p0rt (fr33p0rt@protonmail.com)" version="0.9.0">
 <requires>
